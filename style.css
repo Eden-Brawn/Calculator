@@ -2,7 +2,9 @@
     --background: pink;
     --calculator: rgb(208, 0, 208);
     --screen: white;
-    --button: white;
+    --numb_button: white;
+    --op_button: rgb(163, 160, 160);
+    --submit_button: blue;
     --text: black;
 }
 *{
@@ -17,7 +19,7 @@ body{
 /*This is the body of the calculator*/
 .calculator{
     width: 25em;
-    height: 40em;
+    height: 30em;
     background-color: var(--calculator);
     display: block;
     margin: auto;
@@ -25,8 +27,8 @@ body{
 }
 /*This is the screen where input and output is shown to the user*/
 .screen{
-    width: 90%;
-    height: 25%;
+    width: 20em;
+    height: 10em;
     margin: 1em auto 1em auto;
     background-color: var(--screen);
 }
@@ -48,4 +50,14 @@ body{
 }
 .button:hover{
     background-color: gray;
+}
+/*Each unique button: number, operations and equals*/
+.number{
+    background-color: var(--numb_button);
+}
+.operation{
+    background-color: var(--op_button);
+}
+.submit{
+    background-color: var(--submit_button);
 }
