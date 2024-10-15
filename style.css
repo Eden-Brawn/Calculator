@@ -20,11 +20,19 @@ body{
     margin: auto;
     border-radius: 1em;
 }
+/*This is the screen where input and output is shown to the user*/
+.screen{
+    width: 90%;
+    height: 25%;
+    margin: 1em auto 1em auto;
+}
 /*This is the buttons being styled as a group*/
 .buttons{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 0.5em;
 }
 /*This is each individual button*/
