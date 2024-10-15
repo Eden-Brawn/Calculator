@@ -1,0 +1,9 @@
+:root{
+    --background: pink;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+}
