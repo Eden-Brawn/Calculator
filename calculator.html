@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="screen"></div>
+        <div class="screen" id="screen">0</div>
         <div class="buttons">
             <div class="button operation">(</div>
             <div class="button operation">)</div>
@@ -23,14 +23,14 @@
             <div class="button number">5</div>
             <div class="button number">6</div>
             <div class="button operation">x</div>
-            <div class="button number">1</div>
-            <div class="button number">2</div>
+            <div class="button number" onclick="showOnScreen('1')">1</div>
+            <div class="button number" onclick="showOnScreen('2')">2</div>
             <div class="button number">3</div>
             <div class="button operation">-</div>
             <div class="button number">0</div>
             <div class="button number">.</div>
             <div class="button submit">=</div>
-            <div class="button operation">+</div>
+            <div class="button operation" onclick="showOnScreen('+')">+</div>
         </div>
     </div>   
 </body>
