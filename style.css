@@ -25,6 +25,7 @@ body{
     width: 90%;
     height: 25%;
     margin: 1em auto 1em auto;
+    background-color: white;
 }
 /*This is the buttons being styled as a group*/
 .buttons{
