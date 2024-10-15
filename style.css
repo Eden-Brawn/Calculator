@@ -1,9 +1,18 @@
 :root{
     --background: pink;
+    --calculator: rgb(208, 0, 208);
 }
 *{
     box-sizing: border-box;
 }
 body{
     background-color: var(--background);
+}
+.calculator{
+    width: 50%;
+    height: 75%;
+    background-color: var(--calculator);
+    position: fixed;
+    display: block;
+    margin: auto;
 }
