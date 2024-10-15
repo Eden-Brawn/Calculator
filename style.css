@@ -11,6 +11,7 @@ body{
     background-color: var(--background);
     margin: 1em;
 }
+/*This is the body of the calculator*/
 .calculator{
     width: 25em;
     height: 40em;
@@ -19,12 +20,14 @@ body{
     margin: auto;
     border-radius: 1em;
 }
+/*This is the buttons being styled as a group*/
 .buttons{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 0.5em;
 }
+/*This is each individual button*/
 .button{
     height: 2.5em;
     width: 5.5em;
