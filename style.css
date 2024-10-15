@@ -10,7 +10,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    border: red solid 2px;
 }
 body{
     background-color: var(--background);
@@ -22,7 +21,8 @@ body{
     height: 30em;
     background-color: var(--calculator);
     display: block;
-    margin: auto;
+    margin: 1em auto 1em auto;
+    padding: 0.1em;
     border-radius: 1em;
 }
 /*This is the screen where input and output is shown to the user*/
@@ -47,9 +47,12 @@ body{
     width: 5.5em;
     color: var(--text);
     background-color: var(--button);
+    text-align: center;
+    line-height: 2.5em;
 }
 .button:hover{
     background-color: gray;
+    cursor: pointer;
 }
 /*Each unique button: number, operations and equals*/
 .number{
