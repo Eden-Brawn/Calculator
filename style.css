@@ -5,6 +5,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    border: red solid 2px;
 }
 body{
     background-color: var(--background);
