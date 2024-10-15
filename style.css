@@ -1,6 +1,9 @@
 :root{
     --background: pink;
     --calculator: rgb(208, 0, 208);
+    --screen: white;
+    --button: white;
+    --text: black;
 }
 *{
     box-sizing: border-box;
@@ -25,7 +28,7 @@ body{
     width: 90%;
     height: 25%;
     margin: 1em auto 1em auto;
-    background-color: white;
+    background-color: var(--screen);
 }
 /*This is the buttons being styled as a group*/
 .buttons{
@@ -40,4 +43,9 @@ body{
 .button{
     height: 2.5em;
     width: 5.5em;
+    color: var(--text);
+    background-color: var(--button);
+}
+.button:hover{
+    background-color: gray;
 }
