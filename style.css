@@ -19,3 +19,13 @@ body{
     margin: auto;
     border-radius: 1em;
 }
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5em;
+}
+.button{
+    height: 2.5em;
+    width: 5.5em;
+}
