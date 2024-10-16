@@ -5,7 +5,7 @@ function showOnScreen(x){
 /*This carrys out the calculation inputted in to the screen*/
 function calculation() { 
     let x = document.getElementById('screen').innerHTML;
-    let y = eval(x);/*eval from https://www.shecodes.io/athena/169245-javascript-function-to-evaluate-strings*/
+    let y = Function(x);/*eval from https://www.shecodes.io/athena/169245-javascript-function-to-evaluate-strings*/
     document.getElementById('screen').innerHTML = y;
 } 
 /*This clears the screen*/
