@@ -31,6 +31,12 @@ body{
     height: 10em;
     margin: 1em auto 1em auto;
     background-color: var(--screen);
+    overflow-wrap: break-word;/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text*/
+}
+#screen{
+    font-size: 2em;
+    padding: 0.5em;
+    
 }
 /*This is the buttons being styled as a group*/
 .buttons{
